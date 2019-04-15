@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+---
+layout: page
+permalink: /
+---
 
-You can use the [editor on GitHub](https://github.com/nataliecobo/nataliecobo.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+![De gubernatione](/img/BCM_1476_toma_0003.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="column">
+My name is <b>Natalie Cobo</b> and I am an historian of the Philippines in the early modern period. I am currently doing a D.Phil. at the University of Oxford where my research considers the development of colonial society in the Philippines in this period, examining how Spaniards understood indigenous societies, how they attempted to change them, and how they had to adapt these expectations to the realities of the archipelago.
 
-### Markdown
+ <p>My background is in Classics and I also translate early modern Latin texts. I am currently working at the <a href="https://www.rg.mpg.de/research/translating-solorzano">Max Planck Institute for European Legal History</a> in Frankfurt where I am translating the legal treatise, <i>de Gubernatione</i>, by seventeenth-century Spanish jurist, Juan de Solórzano Pereyra, into English and Spanish.</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p>I am a founding member of <a href="https://neogranadina.org">Neogranadina</a>, a nonprofit foundation dedicated to rescuing the holdings of endangered archives and libraries in Colombia and promoting the digital humanities.</p>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nataliecobo/nataliecobo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ <p>For more information, please follow the links in the menu bar to the left or contact me.</p>
+</div>

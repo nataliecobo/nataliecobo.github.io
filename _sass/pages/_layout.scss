@@ -1,0 +1,115 @@
+/* LAYOUT CSS */
+.cover {
+  background-color: $background-color;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+  padding: 30px 15px 20px;
+  z-index: 1;
+  @include media-query($small-screen) {
+    background-position: center;
+    padding: 30px;
+  }
+  @include media-query($medium-screen) {
+    height: 100vh;
+    position: initial;
+    width: 100%;
+  }
+}
+.cover-card {
+  color: $text-color;
+  padding: 0 30px;
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: none;
+    @include media-query($medium-screen) {
+      margin-right: 0;
+    }
+  }
+  .author_name {
+    display: inline-block;
+    font-family: "Garamond", serif;
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 29.9px;
+    text-align: left;
+    padding-left:  8px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-top: 12px;
+  }
+  .author_job {
+    display: block;
+    color: $secondary;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: -5px auto 10px;
+  }
+  .author_bio {
+    font-size: 95%;
+    display: block;
+  }
+  @include media-query($medium-screen) {
+    text-align: right;
+    margin: 0 auto;
+    padding: 0 0px 80px;
+  }
+}
+.social-links {
+  margin-top: 0.5em;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 1em;
+      a.social-link-item {
+        color: $secondary;
+        &:hover,
+        &:focus {
+          color: lighten($secondary, 14%);
+        }
+      }
+    }
+  }
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .nav-item {
+    *display: inline-block;
+    display: inline;
+    zoom: 1;
+    &:after {
+      content: '•';
+    }
+    &:last-child:after {
+      content: '';
+    }
+    & a {
+      margin-top: 1em;
+      font-size: 100%;
+      font-weight: bold;
+      color: $secondary;
+      &:hover,
+      &:focus {
+        color: lighten($secondary, 50%);
+      }
+    }
+  }
+}
+.column {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
