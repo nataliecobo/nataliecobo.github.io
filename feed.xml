@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natalie Cobo</title>
+    <description>DPhil candidate, University of Oxford; translator of early modern Latin texts</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2025-08-26</pubDate>
+    <lastBuildDate>Tue, 26 Aug 2025 14:09:25 -0700</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+  </channel>
+</rss>
