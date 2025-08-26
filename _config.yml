@@ -7,6 +7,7 @@ title: Natalie Cobo
 email:
 description: DPhil candidate, University of Oxford; translator of early modern Latin texts
 url: # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
 keywords: ["blog", "jekyll"]
 
 #
@@ -14,7 +15,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          America/Los Angeles
+timezone:          America/Los_Angeles
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -26,6 +27,11 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 #
 ###################################
