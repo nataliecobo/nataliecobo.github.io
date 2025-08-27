@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Jekyll 4.3.x
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.4.1"
 
 # Required for Ruby 3+
 gem "webrick", "~> 1.8"
