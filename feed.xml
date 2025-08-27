@@ -3,10 +3,10 @@
   <channel>
     <title>Natalie Cobo</title>
     <description>DPhil candidate, University of Oxford; translator of early modern Latin texts</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://nataliecobo.com/</link>
+    <atom:link href="https://nataliecobo.com/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>2025-08-27</pubDate>
-    <lastBuildDate>Wed, 27 Aug 2025 10:17:14 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 10:21:19 -0700</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
   </channel>
