@@ -2,9 +2,12 @@
 layout: page
 permalink: /contact
 title: Contact me
+featured_image: /img/Natalie_Cobo-profile_picture_smaller.jpg
+featured_image_alt: Natalie Cobo profile picture
+image_align: left
+image_width: 200px
+columns: 1
 ---
-
-<img src="/img/Natalie_Cobo-profile_picture_smaller.jpg" style="width: 200px; margin-right: 50px; margin-bottom: 10px; margin-top: 10 px;" align="left" alt="Natalie Cobo profile picture" />
 ### Correspondence Address:
 
 Brasenose College <br>

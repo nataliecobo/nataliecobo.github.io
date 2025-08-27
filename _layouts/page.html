@@ -2,20 +2,39 @@
 layout: default
 ---
 
-  <div id="page">
-    <header class="page-header">
-      <h1 style="line-height: 1;">{{ page.title }}</h1>
-    </header>
+<div id="page">
+  <header class="page-header">
+    <h1 style="line-height: 1;">{{ page.title }}</h1>
+  </header>
 
-    <article class="page-content">
+  <article class="page-content">
+    {% if page.featured_image %}
+    <img src="{{ page.featured_image }}" 
+         alt="{{ page.featured_image_alt | default: page.title }}" 
+         {% if page.image_width %}width="{{ page.image_width }}"{% endif %}
+         {% if page.image_align == 'right' %}
+         style="float: right; margin-left: 30px; margin-bottom: 10px;"
+         align="right"
+         {% elsif page.image_align == 'left' %}
+         style="float: left; margin-right: 30px; margin-bottom: 10px;"
+         align="left"
+         {% endif %} />
+    {% endif %}
+
+    {% if page.columns and page.columns > 1 %}
+      {% capture column_content %}
+        {{ content }}
+      {% endcapture %}
+      <div style="column-count: {{ page.columns }}; -webkit-column-count: {{ page.columns }}; -moz-column-count: {{ page.columns }}; column-gap: 40px; -webkit-column-gap: 40px; -moz-column-gap: 40px;">
+        {{ column_content }}
+      </div>
+    {% else %}
       {{ content }}
-    </article>
+    {% endif %}
+  </article>
+</div>
 
-
-  </div><!-- end page content -->
-
-
-  {% if site.owner.disqus-shortname and page.comments == true %}
-  <div id="disqus_thread"></div>
-  {% include disqus.html %}
-  {% endif %}
+{% if site.owner.disqus-shortname and page.comments == true %}
+<div id="disqus_thread"></div>
+{% include disqus.html %}
+{% endif %}

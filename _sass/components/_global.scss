@@ -104,11 +104,18 @@ a {
 
 // Footer
 footer {
-  text-align: center;
-  padding: 3em 0;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  color: #767676;
   .heart-icon {
     color: $danger;
     text-shadow: 0 0 5px $white, 0 0 10px $danger;
+  }
+  position: absolute; /* Position relative to the parent */
+  bottom: 0; /* Align to the bottom edge of the parent */
+  font-size: 12px;
+  a {
+    color:#767676;
   }
 }
 .related-articles {

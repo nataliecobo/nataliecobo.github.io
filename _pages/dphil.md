@@ -2,6 +2,7 @@
 layout: page
 permalink: /dphil
 title: D.Phil. Project
+columns: 1
 ---
 
 ## Ethnology, conversion, and law in the early modern Philippines
