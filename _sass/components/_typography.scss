@@ -37,7 +37,7 @@ a {
    color: $primary;
    &:hover,
    &:focus {
-     color: lighten($primary, 14%);
+     color: $highlight;
      text-decoration: none;
    }
 }
@@ -47,16 +47,19 @@ a {
 //
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-headings;
 	font-weight: 600;
   line-height: 1.7;
+  letter-spacing: 0.02em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: $font-family-headings;
   font-weight: inherit;
   color: $text-color;
   &:hover,
   &:focus {
-    color: lighten($text-color, 24%);
+    color: $highlight;
   }
 }
 h1 { font-size: $font-size-h1; margin: ($font-size-h1 / 2) 0 ($font-size-h1 / 2.5) 0;}

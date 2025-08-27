@@ -6,25 +6,25 @@
   <span class="author_bio mbm">{{ author.bio }}</span>
   <nav class="nav">
     <ul class="nav-list">
-        <li class="nav-item">
+        <li class="nav-item {% if page.url == '/' %}active{% endif %}">
           <a href="/">Home</a>
         </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/dphil' or page.url == '/dphil/' %}active{% endif %}">
         <a href="/dphil">D.Phil. project</a>
       </li>
-      <li class="nav-item" style="font-style: italic;">
+      <li class="nav-item {% if page.url == '/translating_solorzano' or page.url == '/translating_solorzano/' %}active{% endif %}" style="font-style: italic;">
         <a href="/translating_solorzano">Translating Solórzano</a>
       </li>
-      <li class="nav-item" style="font-style: italic;">
+      <li class="nav-item {% if page.url == '/publications/legislation' or page.url == '/publications/legislation/' %}active{% endif %}" style="font-style: italic;">
         <a href="/publications/legislation">The legislation of Santafé</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/digital_humanities' or page.url == '/digital_humanities/' %}active{% endif %}">
         <a href="/digital_humanities">Digital Humanities</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/archive' or page.url == '/archive/' %}active{% endif %}">
         <a href="/archive">Blog</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.url == '/contact' or page.url == '/contact/' %}active{% endif %}">
           <a href="/contact">Contact me</a>
       </li>
     </ul>

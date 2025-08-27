@@ -33,6 +33,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+include:
+  - _pages
+
 #
 ###################################
 # Site Owner configuration
