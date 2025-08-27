@@ -1,0 +1,43 @@
+/* 
+ * This file is a compatibility layer for modern SASS.
+ * It helps fix deprecation warnings by providing modern alternatives
+ * to deprecated functions.
+ */
+
+@use "sass:math";
+@use "sass:color";
+@use "sass:string";
+
+// Math helpers
+@function safe-div($dividend, $divisor) {
+  @return math.div($dividend, $divisor);
+}
+
+// Color helpers 
+@function lighten($color, $amount) {
+  @return color.adjust($color, $lightness: $amount);
+}
+
+// Provide a lighten function that's compatible with the new SASS
+@function scale-color($color, $lightness: 0%) {
+  @return color.scale($color, $lightness: $lightness);
+}
+
+// Color helpers
+@function safe-lighten($color, $amount) {
+  @return color.scale($color, $lightness: $amount);
+}
+
+@function safe-darken($color, $amount) {
+  @return color.scale($color, $lightness: -$amount);
+}
+
+// String helpers
+@function safe-unquote($string) {
+  @return string.unquote($string);
+}
+
+// Grid calculation helpers
+@function calc-percent($columns, $total-columns) {
+  @return safe-div(100 * $columns, $total-columns) * 1%;
+}

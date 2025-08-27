@@ -4,7 +4,7 @@
 *,
 *:before,
 *:after {
-  @include box-sizing;
+  @include box-sizing(border-box);
 }
 .notice {
   border: 1px solid lighten($text-color, 45%);

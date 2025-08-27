@@ -1,0 +1,12 @@
+// Math module for SASS
+@use "sass:math";
+@use "sass:color";
+
+// Helper functions
+@function math-div($dividend, $divisor) {
+  @return math.div($dividend, $divisor);
+}
+
+@function color-lighten($color, $percent) {
+  @return color.scale($color, $lightness: $percent);
+}
