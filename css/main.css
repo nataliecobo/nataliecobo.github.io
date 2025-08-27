@@ -7,7 +7,6 @@
 /*
  * Global Variables
  */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic|Roboto+Mono);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -510,19 +509,26 @@ a {
 }
 
 footer {
-  text-align: center;
-  padding: 3em 0;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  color: #767676;
+  position: absolute; /* Position relative to the parent */
+  bottom: 0; /* Align to the bottom edge of the parent */
+  font-size: 12px;
 }
 footer .heart-icon {
   color: #f83e4b;
   text-shadow: 0 0 5px #fff, 0 0 10px #f83e4b;
+}
+footer a {
+  color: #767676;
 }
 
 .related-articles {
   margin-top: 2em;
 }
 .related-articles h4 {
-  font-family: Palatino, "Times New Roman", Times, serif;
+  font-family: "Lora", Georgia, serif;
 }
 .related-articles ul {
   margin: 0;
@@ -1207,7 +1213,7 @@ footer .heart-icon {
    ========================================================================== */
 html {
   line-height: 1.5;
-  font-family: Palatino, "Times New Roman", Times, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
   -webkit-font-smoothing: antialiased;
@@ -1228,31 +1234,34 @@ a {
   color: #0f5a73;
 }
 a:hover, a:focus {
-  color: rgb(23.2384615385, 139.4307692308, 178.1615384615);
+  color: #2c7b96;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Cormorant Garamond", "Times New Roman", Times, serif;
   font-weight: 600;
   line-height: 1.7;
+  letter-spacing: 0.02em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: "Cormorant Garamond", "Times New Roman", Times, serif;
   font-weight: inherit;
   color: rgba(0, 0, 0, 0.87);
 }
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hover, h4 a:focus, h5 a:hover, h5 a:focus, h6 a:hover, h6 a:focus {
-  color: rgba(61.2, 61.2, 61.2, 0.87);
+  color: #2c7b96;
 }
 
 h1 {
-  font-size: 2rem;
-  margin: 1rem 0 0.8rem 0;
+  font-size: 3rem;
+  margin: 1.5rem 0 1.2rem 0;
 }
 
 h2 {
-  font-size: 1.75rem;
-  margin: 0.875rem 0 0.7rem 0;
+  font-size: 2rem;
+  margin: 1rem 0 0.8rem 0;
 }
 
 h3 {
@@ -1310,7 +1319,7 @@ p {
   margin-bottom: 20px;
   padding: 8px 20px;
   font-size: 0.875em;
-  font-family: Palatino, "Times New Roman", Times, serif;
+  font-family: "Lora", Georgia, serif;
   font-weight: 700;
   background-color: #0f5a73;
   color: #fff;
@@ -1394,7 +1403,7 @@ p {
    Syntax highlighting
    ========================================================================== */
 pre, code {
-  font-family: "Roboto Mono", "Courier New", monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   color: #525252;
   font-size: 0.9em;
   background-color: #f8f8f8;
@@ -1755,17 +1764,14 @@ pre code span {
   }
 }
 .cover-card .author_name {
-  display: inline-block;
-  font-family: "Garamond", serif;
+  display: block;
   color: #000;
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 29.9px;
-  text-align: left;
-  padding-left: 8px;
-  padding-bottom: 12px;
-  padding-right: 8px;
-  padding-top: 12px;
+  font-size: 2rem;
+  text-transform: none;
+  margin: -5px auto 10px;
+}
+.cover-card .author_name:hover, .cover-card .author_name:focus {
+  color: #2c7b96;
 }
 .cover-card .author_job {
   display: block;
@@ -1803,7 +1809,7 @@ pre code span {
   color: #000;
 }
 .social-links ul li a.social-link-item:hover, .social-links ul li a.social-link-item:focus {
-  color: rgb(35.7, 35.7, 35.7);
+  color: #2c7b96;
 }
 
 .nav-list {
@@ -1829,7 +1835,10 @@ pre code span {
   color: #000;
 }
 .nav-list .nav-item a:hover, .nav-list .nav-item a:focus {
-  color: rgb(127.5, 127.5, 127.5);
+  color: #2c7b96;
+}
+.nav-list .nav-item.active a {
+  color: #2c7b96;
 }
 
 .column {
