@@ -6,7 +6,7 @@
 title: Natalie Cobo
 email:
 description: DPhil candidate, University of Oxford; translator of early modern Latin texts
-url: # the base hostname & protocol for your site
+url: https://nataliecobo.com # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 keywords: ["blog", "jekyll"]
 
