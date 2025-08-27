@@ -11,7 +11,7 @@ layout: default
   {% if page.image.feature contains 'https' or page.image.feature contains 'http' %}
   "{{ page.image.feature }}"
   {% else %}
-  "/img/{{ page.image.feature }}"
+  "https://nataliecobo.com/img/{{ page.image.feature }}"
   {% endif %}
   alt="{{ page.title | escape }} feature image">
 
