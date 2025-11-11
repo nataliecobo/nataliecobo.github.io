@@ -9,7 +9,7 @@ image_width: 300px
 columns: 1
 ---
 
-# Neogranadina
+## Neogranadina
 
 I am a co-founder of the Colombian registered non-profit foundation [Neogranadina](https://neogranadina.org), which has become a leader in the field of digital humanities in Latin America over the last decade. The core of our work is the design and production of low-cost archival document scanners, which we donate to archives in the Global South to digitize their collections, and work with them to make the resulting images freely available. 
 
