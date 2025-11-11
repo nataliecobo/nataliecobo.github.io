@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* 
  * This file is a compatibility layer for modern SASS.
  * It helps fix deprecation warnings by providing modern alternatives
@@ -512,13 +511,15 @@ footer {
   padding-top: 3em;
   padding-bottom: 1em;
   color: #767676;
-  position: absolute; /* Position relative to the parent */
-  bottom: 0; /* Align to the bottom edge of the parent */
-  font-size: 12px;
 }
 footer .heart-icon {
   color: #f83e4b;
   text-shadow: 0 0 5px #fff, 0 0 10px #f83e4b;
+}
+footer {
+  position: absolute; /* Position relative to the parent */
+  bottom: 0; /* Align to the bottom edge of the parent */
+  font-size: 12px;
 }
 footer a {
   color: #767676;
@@ -1239,14 +1240,14 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cormorant Garamond", "Times New Roman", Times, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-weight: 600;
   line-height: 1.7;
   letter-spacing: 0.02em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  font-family: "Cormorant Garamond", "Times New Roman", Times, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-weight: inherit;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -1441,66 +1442,6 @@ pre code span {
 
 .highlight {
   margin: 0;
-  /* Comment */
-  /* Error */
-  /* Keyword */
-  /* Operator */
-  /* Comment.Multiline */
-  /* Comment.Preproc */
-  /* Comment.Single */
-  /* Comment.Special */
-  /* Generic.Deleted */
-  /* Generic.Emph */
-  /* Generic.Error */
-  /* Generic.Heading */
-  /* Generic.Inserted */
-  /* Generic.Output */
-  /* Generic.Prompt */
-  /* Generic.Strong */
-  /* Generic.Subheading */
-  /* Generic.Traceback */
-  /* Keyword.Constant */
-  /* Keyword.Declaration */
-  /* Keyword.Namespace */
-  /* Keyword.Pseudo */
-  /* Keyword.Reserved */
-  /* Keyword.Type */
-  /* Literal.Number */
-  /* Literal.String */
-  /* Name.Attribute */
-  /* Name.Builtin */
-  /* Name.Class */
-  /* Name.Constant */
-  /* Name.Decorator */
-  /* Name.Entity */
-  /* Name.Exception */
-  /* Name.Function */
-  /* Name.Label */
-  /* Name.Namespace */
-  /* Name.Tag */
-  /* Name.Variable */
-  /* Operator.Word */
-  /* Text.Whitespace */
-  /* Literal.Number.Float */
-  /* Literal.Number.Hex */
-  /* Literal.Number.Integer */
-  /* Literal.Number.Oct */
-  /* Literal.String.Backtick */
-  /* Literal.String.Char */
-  /* Literal.String.Doc */
-  /* Literal.String.Double */
-  /* Literal.String.Escape */
-  /* Literal.String.Heredoc */
-  /* Literal.String.Interpol */
-  /* Literal.String.Other */
-  /* Literal.String.Regex */
-  /* Literal.String.Single */
-  /* Literal.String.Symbol */
-  /* Name.Builtin.Pseudo */
-  /* Name.Variable.Class */
-  /* Name.Variable.Global */
-  /* Name.Variable.Instance */
-  /* Literal.Number.Integer.Long */
 }
 .highlight pre {
   position: relative;
@@ -1529,200 +1470,260 @@ pre code span {
   color: #B0B2B0;
   font-style: italic;
 }
+.highlight { /* Comment */ }
+.highlight { /* Error */ }
 .highlight .k {
   color: #AA22FF;
   font-weight: bold;
 }
+.highlight { /* Keyword */ }
 .highlight .o {
   color: #666666;
 }
+.highlight { /* Operator */ }
 .highlight .cm {
   color: #B0B2B0;
   font-style: italic;
 }
+.highlight { /* Comment.Multiline */ }
 .highlight .cp {
   color: #B0B2B0;
 }
+.highlight { /* Comment.Preproc */ }
 .highlight .c1 {
   color: #B0B2B0;
   font-style: italic;
 }
+.highlight { /* Comment.Single */ }
 .highlight .cs {
   color: #B0B2B0;
   font-weight: bold;
 }
+.highlight { /* Comment.Special */ }
 .highlight .gd {
   color: #A00000;
 }
+.highlight { /* Generic.Deleted */ }
 .highlight .ge {
   font-style: italic;
 }
+.highlight { /* Generic.Emph */ }
 .highlight .gr {
   color: #FF0000;
 }
+.highlight { /* Generic.Error */ }
 .highlight .gh {
   color: #000080;
   font-weight: bold;
 }
+.highlight { /* Generic.Heading */ }
 .highlight .gi {
   color: #00A000;
 }
+.highlight { /* Generic.Inserted */ }
 .highlight .go {
   color: #808080;
 }
+.highlight { /* Generic.Output */ }
 .highlight .gp {
   color: #000080;
   font-weight: bold;
 }
+.highlight { /* Generic.Prompt */ }
 .highlight .gs {
   font-weight: bold;
 }
+.highlight { /* Generic.Strong */ }
 .highlight .gu {
   color: #800080;
   font-weight: bold;
 }
+.highlight { /* Generic.Subheading */ }
 .highlight .gt {
   color: #0040D0;
 }
+.highlight { /* Generic.Traceback */ }
 .highlight .kc {
   color: #AA22FF;
   font-weight: bold;
 }
+.highlight { /* Keyword.Constant */ }
 .highlight .kd {
   color: #AA22FF;
   font-weight: bold;
 }
+.highlight { /* Keyword.Declaration */ }
 .highlight .kn {
   color: #AA22FF;
   font-weight: bold;
 }
+.highlight { /* Keyword.Namespace */ }
 .highlight .kp {
   color: #AA22FF;
 }
+.highlight { /* Keyword.Pseudo */ }
 .highlight .kr {
   color: #AA22FF;
   font-weight: bold;
 }
+.highlight { /* Keyword.Reserved */ }
 .highlight .kt {
   color: #00BB00;
   font-weight: bold;
 }
+.highlight { /* Keyword.Type */ }
 .highlight .m {
   color: #666666;
 }
+.highlight { /* Literal.Number */ }
 .highlight .s {
   color: #BB4444;
 }
+.highlight { /* Literal.String */ }
 .highlight .na {
   color: #BB4444;
 }
+.highlight { /* Name.Attribute */ }
 .highlight .nb {
   color: #AA22FF;
 }
+.highlight { /* Name.Builtin */ }
 .highlight .nc {
   color: #0000FF;
 }
+.highlight { /* Name.Class */ }
 .highlight .no {
   color: #880000;
 }
+.highlight { /* Name.Constant */ }
 .highlight .nd {
   color: #AA22FF;
 }
+.highlight { /* Name.Decorator */ }
 .highlight .ni {
   color: #999999;
   font-weight: bold;
 }
+.highlight { /* Name.Entity */ }
 .highlight .ne {
   color: #D2413A;
   font-weight: bold;
 }
+.highlight { /* Name.Exception */ }
 .highlight .nf {
   color: #00A000;
 }
+.highlight { /* Name.Function */ }
 .highlight .nl {
   color: #A0A000;
 }
+.highlight { /* Name.Label */ }
 .highlight .nn {
   color: #0000FF;
   font-weight: bold;
 }
+.highlight { /* Name.Namespace */ }
 .highlight .nt {
   color: #008000;
   font-weight: bold;
 }
+.highlight { /* Name.Tag */ }
 .highlight .nv {
   color: #B8860B;
 }
+.highlight { /* Name.Variable */ }
 .highlight .ow {
   color: #AA22FF;
   font-weight: bold;
 }
+.highlight { /* Operator.Word */ }
 .highlight .w {
   color: #bbbbbb;
 }
+.highlight { /* Text.Whitespace */ }
 .highlight .mf {
   color: #666666;
 }
+.highlight { /* Literal.Number.Float */ }
 .highlight .mh {
   color: #666666;
 }
+.highlight { /* Literal.Number.Hex */ }
 .highlight .mi {
   color: #666666;
 }
+.highlight { /* Literal.Number.Integer */ }
 .highlight .mo {
   color: #666666;
 }
+.highlight { /* Literal.Number.Oct */ }
 .highlight .sb {
   color: #BB4444;
 }
+.highlight { /* Literal.String.Backtick */ }
 .highlight .sc {
   color: #BB4444;
 }
+.highlight { /* Literal.String.Char */ }
 .highlight .sd {
   color: #BB4444;
   font-style: italic;
 }
+.highlight { /* Literal.String.Doc */ }
 .highlight .s2 {
   color: #BB4444;
 }
+.highlight { /* Literal.String.Double */ }
 .highlight .se {
   color: #BB6622;
   font-weight: bold;
 }
+.highlight { /* Literal.String.Escape */ }
 .highlight .sh {
   color: #BB4444;
 }
+.highlight { /* Literal.String.Heredoc */ }
 .highlight .si {
   color: #BB6688;
   font-weight: bold;
 }
+.highlight { /* Literal.String.Interpol */ }
 .highlight .sx {
   color: #008000;
 }
+.highlight { /* Literal.String.Other */ }
 .highlight .sr {
   color: #BB6688;
 }
+.highlight { /* Literal.String.Regex */ }
 .highlight .s1 {
   color: #BB4444;
 }
+.highlight { /* Literal.String.Single */ }
 .highlight .ss {
   color: #B8860B;
 }
+.highlight { /* Literal.String.Symbol */ }
 .highlight .bp {
   color: #AA22FF;
 }
+.highlight { /* Name.Builtin.Pseudo */ }
 .highlight .vc {
   color: #B8860B;
 }
+.highlight { /* Name.Variable.Class */ }
 .highlight .vg {
   color: #B8860B;
 }
+.highlight { /* Name.Variable.Global */ }
 .highlight .vi {
   color: #B8860B;
 }
+.highlight { /* Name.Variable.Instance */ }
 .highlight .il {
   color: #666666;
 }
+.highlight { /* Literal.Number.Integer.Long */ }
 
 /* LAYOUT CSS */
 .cover {
@@ -1757,33 +1758,40 @@ pre code span {
   width: 100px;
   height: 100px;
   float: none;
+  margin-top: 30px;
 }
 @media (min-width: 992px) {
   .cover-card .avatar {
     margin-right: 0;
+    margin-top: 30px;
   }
 }
 .cover-card .author_name {
   display: block;
   color: #000;
-  font-size: 2rem;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2em;
+  font-weight: 700;
   text-transform: none;
-  margin: -5px auto 10px;
+  margin: 10px auto 10px;
 }
 .cover-card .author_name:hover, .cover-card .author_name:focus {
   color: #2c7b96;
 }
-.cover-card .author_job {
+.cover-card .author_position {
   display: block;
   color: #000;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: -5px auto 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: none;
+  margin: 5px auto 15px;
+  line-height: 1.4;
+  font-style: italic;
 }
 .cover-card .author_bio {
   font-size: 95%;
   display: block;
+  margin-bottom: 20px;
 }
 @media (min-width: 992px) {
   .cover-card {
@@ -1813,32 +1821,31 @@ pre code span {
 }
 
 .nav-list {
-  margin: 0;
+  margin: 20px 0;
   padding: 0;
   list-style: none;
 }
 .nav-list .nav-item {
-  *display: inline-block;
-  display: inline;
-  zoom: 1;
+  display: block;
+  margin: 4px 0;
 }
 .nav-list .nav-item:after {
-  content: "•";
-}
-.nav-list .nav-item:last-child:after {
   content: "";
 }
 .nav-list .nav-item a {
-  margin-top: 1em;
-  font-size: 100%;
-  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
   color: #000;
+  padding: 2px 0;
+  transition: color 0.2s ease;
 }
 .nav-list .nav-item a:hover, .nav-list .nav-item a:focus {
   color: #2c7b96;
 }
 .nav-list .nav-item.active a {
   color: #2c7b96;
+  border-bottom: 2px solid #2c7b96;
 }
 
 .column {
@@ -1848,6 +1855,20 @@ pre code span {
   -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
   -moz-column-gap: 40px; /* Firefox */
   column-gap: 40px;
+}
+
+/* Manual column breaks */
+.column-break {
+  -webkit-column-break-after: always;
+  break-after: column;
+  page-break-after: always;
+}
+
+/* Alternative: break before */
+.break-before {
+  -webkit-column-break-before: always;
+  break-before: column;
+  page-break-before: always;
 }
 
 ul.tag-cloud {
@@ -2192,6 +2213,20 @@ a.read-more {
   background-color: #fff;
   color: #5f99cf;
   border-color: #5f99cf;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
