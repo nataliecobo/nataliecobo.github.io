@@ -14,11 +14,13 @@ layout: default
          loading="lazy"
          {% if page.image_width %}width="{{ page.image_width }}"{% endif %}
          {% if page.image_align == 'right' %}
-         style="float: right; margin-left: 30px; margin-bottom: 10px;"
+         style="float: right; margin-left: 30px; margin-bottom: 30px;"
          align="right"
          {% elsif page.image_align == 'left' %}
-         style="float: left; margin-right: 30px; margin-bottom: 10px;"
+         style="float: left; margin-right: 30px; margin-bottom: 30px;"
          align="left"
+         {% else %}
+         style="margin-bottom: 30px;"
          {% endif %} />
     {% endif %}
 
@@ -26,7 +28,7 @@ layout: default
       {% capture column_content %}
         {{ content }}
       {% endcapture %}
-      <div style="column-count: {{ page.columns }}; -webkit-column-count: {{ page.columns }}; -moz-column-count: {{ page.columns }}; column-gap: 40px; -webkit-column-gap: 40px; -moz-column-gap: 40px;">
+      <div class="responsive-columns" data-columns="{{ page.columns }}">
         {{ column_content }}
       </div>
     {% else %}
@@ -34,8 +36,4 @@ layout: default
     {% endif %}
   </article>
 </div>
-
-{% if site.owner.disqus-shortname and page.comments == true %}
-<div id="disqus_thread"></div>
-{% include disqus.html %}
-{% endif %}
+{% include footer.html %}

@@ -18,6 +18,7 @@ $border-width:               .0625rem !default;
 
 // Screen size for responsive design
 $small-screen: 600px !default;
+$tablet-screen: 768px !default;
 $medium-screen: 992px !default;
 $large-screen: 1200px !default;
 $larger-screen: 1600px !default;
@@ -81,6 +82,7 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
 
 // Media Query Ranges
 $small-screen: 600px !default;
+$tablet-screen: 768px !default;
 $medium-screen: 992px !default;
 $large-screen: 1200px !default;
 $larger-screen: 1600px !default;

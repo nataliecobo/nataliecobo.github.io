@@ -104,18 +104,29 @@ a {
 
 // Footer
 footer {
-  padding-top: 3em;
-  padding-bottom: 1em;
-  color: #767676;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 0;
+  color: #767676 !important;
+  text-align: right;
+  clear: both;
+  display: block !important;
+  width: 100%;
+  margin-top: 2em;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative;
+  z-index: 1;
   .heart-icon {
     color: $danger;
     text-shadow: 0 0 5px $white, 0 0 10px $danger;
   }
-  position: absolute; /* Position relative to the parent */
-  bottom: 0; /* Align to the bottom edge of the parent */
-  font-size: 12px;
+  font-size: 14px;
   a {
     color:#767676;
+    &:hover {
+      color: $highlight;
+    }
   }
 }
 .related-articles {

@@ -4,26 +4,38 @@
   <a href="/" class="author_name">{{ author.name }}</a>
   <span class="author_position">{{ author.position }}</span>
   <span class="author_bio mbm">{{ author.bio }}</span>
-  <nav class="nav">
-    <ul class="nav-list">
-      {% for item in site.navigation %}
-        {% if item.section %}
-          <li class="nav-section">{{ item.section }}</li>
-          {% for subitem in item.items %}
-            <li class="nav-item {% if page.url == subitem.url or page.url == subitem.url | append: '/' %}active{% endif %}"{% if subitem.italic %} style="font-style: italic;"{% endif %}>
-              <a href="{{ subitem.url }}">{{ subitem.title }}</a>
-            </li>
+
+  <button class="mobile-menu-toggle js-menu-toggle">
+    <span class="menu-text">Menu</span>
+    <span class="menu-arrow">▼</span>
+  </button>
+
+  <div class="nav-overlay">
+    <button class="nav-close-button js-menu-close" aria-label="Close menu">
+      <span class="close-icon">&times;</span>
+    </button>
+    <div class="nav-overlay-content">
+      <nav class="nav">
+        <ul class="nav-list">
+          {% for item in site.navigation %}
+            {% if item.section %}
+              <li class="nav-section">{{ item.section }}</li>
+              {% for subitem in item.items %}
+                <li class="nav-item {% if page.url == subitem.url or page.url == subitem.url | append: '/' %}active{% endif %}"{% if subitem.italic %} style="font-style: italic;"{% endif %}>
+                  <a href="{{ subitem.url }}">{{ subitem.title }}</a>
+                </li>
+              {% endfor %}
+            {% else %}
+              <li class="nav-item {% if page.url == item.url or page.url == item.url | append: '/' %}active{% endif %}"{% if item.italic %} style="font-style: italic;"{% endif %}>
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+            {% endif %}
           {% endfor %}
-        {% else %}
-          <li class="nav-item {% if page.url == item.url or page.url == item.url | append: '/' %}active{% endif %}"{% if item.italic %} style="font-style: italic;"{% endif %}>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-  <a href="http://neogranadina.org" aria-label="Visit Neogranadina website">
-    <img src="{{ '/img/neogranadina.png' | relative_url }}" alt="Neogranadina logo" class="avatar">
-  </a>
-  {% include footer.html %}
+        </ul>
+      </nav>
+      <a href="http://neogranadina.org" aria-label="Visit Neogranadina website">
+        <img src="{{ '/img/neogranadina.png' | relative_url }}" alt="Neogranadina logo" class="avatar">
+      </a>
+    </div>
+  </div>
 </div>
