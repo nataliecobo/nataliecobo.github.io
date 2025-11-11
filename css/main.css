@@ -1825,6 +1825,19 @@ pre code span {
   padding: 0;
   list-style: none;
 }
+.nav-list .nav-section {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 10px 0 6px 0;
+  opacity: 0.6;
+}
+.nav-list .nav-section:first-child {
+  margin-top: 0;
+}
 .nav-list .nav-item {
   display: block;
   margin: 4px 0;
