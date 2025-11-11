@@ -11,7 +11,7 @@ manual_columns: true
 
 My name is **Natalie Cobo** and I am a legal and intellectual historian of the early modern Iberian World. I approach this work in three ways: historical research into the **early modern Iberian world**, **Neo-Latin translation**, and **digital humanities**.
 
-My current monograph, [***Paper Archipelao: The Spanish invasion and colonization of the sixteenth century Philippines***](/paper-archipelago) examines how Spanish settlers, officials, and missionaries established a colonial administration and the practical consequences of this for Indigenous peoples. It explores how the Spanish conquest was effected; the contingent and circumstantial development of local colonial policies and institutions within the broader normative framework of Spanish imperialism and early modern European legal culture; and the ways in which Indigenous communities interacted with and shaped colonial impositions.
+My current monograph, [***Paper Archipelago: The Spanish invasion and colonization of the sixteenth century Philippines***](/paper-archipelago) examines how Spanish settlers, officials, and missionaries established a colonial administration and the practical consequences of this for Indigenous peoples. It explores how the Spanish conquest was effected; the contingent and circumstantial development of local colonial policies and institutions within the broader normative framework of Spanish imperialism and early modern European legal culture; and the ways in which Indigenous communities interacted with and shaped colonial impositions.
 
 </div>
 <div class="column-right" markdown="1">
