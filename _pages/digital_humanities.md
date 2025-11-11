@@ -11,4 +11,10 @@ columns: 1
 
 # Neogranadina
 
-I am one of the founding members of Neogranadina, a non-profit foundation devoted to digitising the holdings of endangered archives and libraries in Colombia and promoting the digital humanities. In partnership with the Medici Archive Project, the Universidad de los Andes and the Universidad del Cauca, the foundation is currently digitising three key early-modern collections in Popayán and Tunja at the rate of several thousand images every week, using low-cost scanners that we have designed and built ourselves. With the help of international allies, we are in the process of setting up an online archive to make these images available to everyone, around the world, for free.
+I am a co-founder of the Colombian registered non-profit foundation [Neogranadina](https://neogranadina.org), which has become a leader in the field of digital humanities in Latin America over the last decade. The core of our work is the design and production of low-cost archival document scanners, which we donate to archives in the Global South to digitize their collections, and work with them to make the resulting images freely available. 
+
+We have run seven major digitization projects in Colombia, ranging from early colonial records to 20th-century human rights materials, and have worked with different state and community partners there and in Peru to make digitized materials available and accessible. 
+
+My contributions have encompassed the full range of these activities, from negotiating projects with regional archives, writing grant applications, building scanners, and training and supervising operators, to processing the resulting images for publication on our collaborative digital platform, [ABC](https://abcng.org). 
+
+We also create and support pedagogical resources to bring them to broader audiences. This year, we have received funding from [UCSB](https://agi.ucsb.edu/burdick-global-scholars-program/activating-archives-blueprint-egalitarian-archival-practice), the [National Endowment for the Humanities](https://apps.neh.gov/publicquery/AwardDetail.aspx?gn=HAA-304052-25), and the [Modern Endangered Archives Project](https://meap.library.ucla.edu/about/news/meap-announcement-cohort-7/) to continue developing our digitization and digital preservation work.

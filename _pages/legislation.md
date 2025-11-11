@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/legislation
+permalink: /legislation
 title: The legislation of the Archdiocese of Santafé in the colonial period
 featured_image: /img/legislacion_cover.png
 featured_image_alt: Legislation cover

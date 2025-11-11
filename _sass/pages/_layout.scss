@@ -88,6 +88,19 @@
   margin: 20px 0;
   padding: 0;
   list-style: none;
+  .nav-section {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: $secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 10px 0 6px 0;
+    opacity: 0.6;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
   .nav-item {
     display: block;
     margin: 4px 0;

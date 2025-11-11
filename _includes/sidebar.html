@@ -6,24 +6,20 @@
   <span class="author_bio mbm">{{ author.bio }}</span>
   <nav class="nav">
     <ul class="nav-list">
-        <li class="nav-item {% if page.url == '/' %}active{% endif %}">
-          <a href="/">Home</a>
-        </li>
-      <li class="nav-item {% if page.url == '/dphil' or page.url == '/dphil/' %}active{% endif %}">
-        <a href="/dphil">D.Phil. project</a>
-      </li>
-      <li class="nav-item {% if page.url == '/translating_solorzano' or page.url == '/translating_solorzano/' %}active{% endif %}" style="font-style: italic;">
-        <a href="/translating_solorzano">Translating Solórzano</a>
-      </li>
-      <li class="nav-item {% if page.url == '/publications/legislation' or page.url == '/publications/legislation/' %}active{% endif %}" style="font-style: italic;">
-        <a href="/publications/legislation">The legislation of Santafé</a>
-      </li>
-      <li class="nav-item {% if page.url == '/digital_humanities' or page.url == '/digital_humanities/' %}active{% endif %}">
-        <a href="/digital_humanities">Digital Humanities</a>
-      </li>
-      <li class="nav-item {% if page.url == '/contact' or page.url == '/contact/' %}active{% endif %}">
-          <a href="/contact">Contact me</a>
-      </li>
+      {% for item in site.navigation %}
+        {% if item.section %}
+          <li class="nav-section">{{ item.section }}</li>
+          {% for subitem in item.items %}
+            <li class="nav-item {% if page.url == subitem.url or page.url == subitem.url | append: '/' %}active{% endif %}"{% if subitem.italic %} style="font-style: italic;"{% endif %}>
+              <a href="{{ subitem.url }}">{{ subitem.title }}</a>
+            </li>
+          {% endfor %}
+        {% else %}
+          <li class="nav-item {% if page.url == item.url or page.url == item.url | append: '/' %}active{% endif %}"{% if item.italic %} style="font-style: italic;"{% endif %}>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
   </nav>
   <a href="http://neogranadina.org" aria-label="Visit Neogranadina website">
