@@ -4,6 +4,7 @@
 {% include head.html %}
 
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <div class="row">
     <div class="col s12 m3">
       <div class="table cover">
@@ -11,9 +12,11 @@
       </div>
     </div>
     <div class="col s12 m9">
-      <div class="post-listing">
-        {{ content }}
-      </div>
+      <main id="main-content" role="main">
+        <div class="post-listing">
+          {{ content }}
+        </div>
+      </main>
     </div>
   </div>
   {% include js.html %}

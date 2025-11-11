@@ -10,9 +10,9 @@ columns: 1
 ---
 ### Correspondence Address:
 
-Brasenose College <br>
-Radcliffe Square <br>
-Oxford <br>
-OX1 4AJ <br>
+Brasenose College  
+Radcliffe Square  
+Oxford  
+OX1 4AJ  
 
 natalie [dot] cobo [at] bnc [dot] ox [dot] ac [dot] uk

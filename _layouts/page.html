@@ -9,8 +9,9 @@ layout: default
 
   <article class="page-content">
     {% if page.featured_image %}
-    <img src="{{ page.featured_image }}" 
-         alt="{{ page.featured_image_alt | default: page.title }}" 
+    <img src="{{ page.featured_image }}"
+         alt="{{ page.featured_image_alt | default: page.title }}"
+         loading="lazy"
          {% if page.image_width %}width="{{ page.image_width }}"{% endif %}
          {% if page.image_align == 'right' %}
          style="float: right; margin-left: 30px; margin-bottom: 10px;"

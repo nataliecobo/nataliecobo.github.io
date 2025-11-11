@@ -13,7 +13,8 @@ layout: default
   {% else %}
   "https://nataliecobo.com/img/{{ page.image.feature }}"
   {% endif %}
-  alt="{{ page.title | escape }} feature image">
+  alt="{{ page.title | escape }} feature image"
+  loading="lazy">
 
   {% if page.image.credit %}
   <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>

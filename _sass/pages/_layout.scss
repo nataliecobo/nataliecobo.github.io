@@ -25,32 +25,39 @@
     width: 100px;
     height: 100px;
     float: none;
+    margin-top: 30px;
     @include media-query($medium-screen) {
       margin-right: 0;
+      margin-top: 30px;
     }
   }
     .author_name {
     display: block;
     color: $secondary;
-    font-size: $font-size-h2;
+    font-family: $font-family-headings;
+    font-size: 2em;
+    font-weight: 700;
     text-transform: none;
-    margin: -5px auto 10px;
+    margin: 10px auto 10px;
     &:hover,
     &:focus {
       color: $highlight;
     }
   }
-  .author_job {
+  .author_position {
     display: block;
     color: $secondary;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: -5px auto 10px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+    margin: 5px auto 15px;
+    line-height: 1.4;
+    font-style: italic;
   }
   .author_bio {
     font-size: 95%;
     display: block;
+    margin-bottom: 20px;
   }
   @include media-query($medium-screen) {
     text-align: right;
@@ -78,24 +85,22 @@
   }
 }
 .nav-list {
-  margin: 0;
+  margin: 20px 0;
   padding: 0;
   list-style: none;
   .nav-item {
-    *display: inline-block;
-    display: inline;
-    zoom: 1;
+    display: block;
+    margin: 4px 0;
     &:after {
-      content: '•';
-    }
-    &:last-child:after {
       content: '';
     }
     & a {
-      margin-top: 1em;
-      font-size: 100%;
-      font-weight: bold;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 600;
       color: $secondary;
+      padding: 2px 0;
+      transition: color 0.2s ease;
       &:hover,
       &:focus {
         color: $highlight;
@@ -103,6 +108,7 @@
     }
     &.active a {
       color: $highlight;
+      border-bottom: 2px solid $highlight;
     }
   }
 }
@@ -113,4 +119,18 @@
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
+}
+
+/* Manual column breaks */
+.column-break {
+    -webkit-column-break-after: always;
+    break-after: column;
+    page-break-after: always;
+}
+
+/* Alternative: break before */
+.break-before {
+    -webkit-column-break-before: always;
+    break-before: column;
+    page-break-before: always;
 }

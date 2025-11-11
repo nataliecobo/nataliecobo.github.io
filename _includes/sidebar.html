@@ -2,7 +2,7 @@
 
 <div class="cover-card table-cell table-middle">
   <a href="/" class="author_name">{{ author.name }}</a>
-  <span class="author_job">{{ author.job }}</span>
+  <span class="author_position">{{ author.position }}</span>
   <span class="author_bio mbm">{{ author.bio }}</span>
   <nav class="nav">
     <ul class="nav-list">
@@ -21,18 +21,13 @@
       <li class="nav-item {% if page.url == '/digital_humanities' or page.url == '/digital_humanities/' %}active{% endif %}">
         <a href="/digital_humanities">Digital Humanities</a>
       </li>
-      <li class="nav-item {% if page.url == '/archive' or page.url == '/archive/' %}active{% endif %}">
-        <a href="/archive">Blog</a>
-      </li>
       <li class="nav-item {% if page.url == '/contact' or page.url == '/contact/' %}active{% endif %}">
           <a href="/contact">Contact me</a>
       </li>
     </ul>
   </nav>
-  <p></p>
-  <h2></h2>
-  <a href="http://neogranadina.org">
-    <img src="https://nataliecobo.com/img/neogranadina.png" alt="" class="avatar">
+  <a href="http://neogranadina.org" aria-label="Visit Neogranadina website">
+    <img src="https://nataliecobo.com/img/neogranadina.png" alt="Neogranadina logo" class="avatar">
   </a>
   {% include footer.html %}
 </div>

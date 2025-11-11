@@ -5,10 +5,25 @@
 #
 title: Natalie Cobo
 email:
-description: DPhil candidate, University of Oxford; translator of early modern Latin texts
+description: Historian of the early modern world, with a focus on the Philippines and Iberian political and legal thought. Oxford DPhil. Co-founder of Neogranadina.
 url: https://nataliecobo.com # the base hostname & protocol for your site
-baseurl: "/" # the subpath of your site, e.g. /blog
-keywords: ["blog", "jekyll"]
+baseurl: "" # the subpath of your site, e.g. /blog
+keywords: ["early modern history", "Spanish colonial history", "Latin translation", "digital humanities", "Iberian world", "Philippines", "Santafé de Bogotá", "Juan de Solórzano Pereira", "Neogranadina", "historical research"]
+
+# Social media and SEO
+author:
+  name: Natalie Cobo
+
+logo: /img/neogranadina.png
+
+social:
+  name: Natalie Cobo
+  links: []
+
+# Jekyll SEO Tag configuration
+tagline: Historian of the early modern Iberian world and translator of early modern Latin texts
+
+lang: en_US
 
 #
 ###################################
@@ -44,37 +59,6 @@ include:
 owner:
   name: Natalie Cobo
   avatar: neogranadina.png
-  job: ""
-  bio: "DPhil candidate, University of Oxford; translator of early modern Latin texts"
+  position: "Affiliate Researcher, <br>MPI for Legal History and Legal Theory;<br>Budick Fellow, UC Santa Barbara"
+  bio: "Historian of the early modern Iberian world. Translator of early modern Latin texts."
   email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: #username
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: #username
