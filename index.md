@@ -16,7 +16,7 @@ My current monograph, [***Paper Archipelago: The Spanish invasion and colonizati
 </div>
 <div class="column-right" markdown="1">
 
-I am a translator of Neo-Latin and my current project, based at the [Max Planck Institute for European Legal History](https://www.lhlt.mpg.de/research-project/translating-solorzano?c=4620677), Frankfurt, aims to produce a translation and critical edition of the key work of seventeenth-century Spanish administrative jurisprudence, [***de Gubernatione***](/translating-solorzano), by Juan de Solórzano y Pereira, from Latin into English and Spanish.
+I am a translator of Neo-Latin and my current project, based at the [Max Planck Institute for Legal History and Legal Theory](https://www.lhlt.mpg.de/research-project/translating-solorzano?c=4620677), Frankfurt, aims to produce a translation and critical edition of the key work of seventeenth-century Spanish administrative jurisprudence, [***de Gubernatione***](/translating-solorzano), by Juan de Solórzano y Pereira, from Latin into English and Spanish.
 
 I am a co-founder of the Colombian registered non-profit foundation [Neogranadina](https://neogranadina.org), which has become a leader in the field of digital humanities in Latin America over the last decade. The core of our work is the design and production of low-cost archival document scanners, which we donate to archives in the Global South to digitize their collections, and work with them to make the resulting images freely available.
 
