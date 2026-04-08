@@ -18,4 +18,4 @@ Campus Mail Code: 2150
 #### Email:
 
 cobo [at] lhlt [dot] mpg [dot] de  
-natalie [dot] cobo [at] ucsb [dot] edu
+nataliecobo [at] ucsb [dot] edu
