@@ -59,7 +59,7 @@ include:
 owner:
   name: Natalie Cobo
   avatar: neogranadina.png
-  position: "Affiliate Researcher, <br>MPI for Legal History and Legal Theory;<br>Budick Fellow, UC Santa Barbara"
+  position: "Affiliate Researcher, <br>MPI for Legal History and Legal Theory;<br>Burdick Fellow, UC Santa Barbara"
   bio: "Historian of the early modern Iberian world. Translator of early modern Latin texts."
   email:
 
@@ -72,34 +72,17 @@ navigation:
   - title: "Home"
     url: /
 
-  - section: "Past Projects"
-    items:
-      - title: "The legislation of Santafé"
-        url: /legislation
-        italic: true
-      - title: "Mylaeus, <em>De Scribenda</em>"
-        url: /mylaeus
+  - title: "Historical Research"
+    url: /historical_research
 
+  - title: "Translation Projects"
+    url: /translation_projects
 
-  - section: "Current Projects"
-    items:
-      - title: "Paper Archipelago"
-        url: /paper-archipelago
-        italic: true
-      - title: "Reading Sources for Colonial Spanish American History"
-        url: /sources
-        italic: true      
-      - title: "Translating Solórzano"
-        url: /translating_solorzano
-        italic: true
-      - title: "Digital Humanities"
-        url: /digital_humanities
+  - title: "Digital Humanities"
+    url: /digital_humanities
 
-  - section: "Future Projects"
-    items:
-      - title: "Oracles of Asia"
-        url: /oracles
-        italic: true
+  - title: "Academic Services"
+    url: /academic_services
 
-  - title: "Contact me"
+  - title: "Contact"
     url: /contact
