@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://nataliecobo.com/academic_services</loc>
+</url>
+<url>
 <loc>https://nataliecobo.com/contact</loc>
 </url>
 <url>
 <loc>https://nataliecobo.com/digital_humanities</loc>
+</url>
+<url>
+<loc>https://nataliecobo.com/historical_research</loc>
 </url>
 <url>
 <loc>https://nataliecobo.com/categories/</loc>
@@ -13,21 +19,6 @@
 <loc>https://nataliecobo.com/</loc>
 </url>
 <url>
-<loc>https://nataliecobo.com/legislation</loc>
-</url>
-<url>
-<loc>https://nataliecobo.com/mylaeus</loc>
-</url>
-<url>
-<loc>https://nataliecobo.com/oracles</loc>
-</url>
-<url>
-<loc>https://nataliecobo.com/paper-archipelago</loc>
-</url>
-<url>
-<loc>https://nataliecobo.com/sources</loc>
-</url>
-<url>
-<loc>https://nataliecobo.com/translating_solorzano</loc>
+<loc>https://nataliecobo.com/translation_projects</loc>
 </url>
 </urlset>
