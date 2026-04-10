@@ -1,8 +1,6 @@
 ---
 layout: page
 permalink: /
-featured_image: /img/san-agustin.png
-featured_image_alt: San Agustin manuscript
 manual_columns: true
 ---
 
