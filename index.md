@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /
-featured_image: /img/BCM_1476_toma_0003.jpg
-featured_image_alt: De gubernatione
+featured_image: /img/san-agustin.png
+featured_image_alt: San Agustin manuscript
 manual_columns: true
 ---
 
